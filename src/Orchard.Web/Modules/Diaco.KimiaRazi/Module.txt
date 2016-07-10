@@ -1,0 +1,11 @@
+﻿Name: kimiarazi
+AntiForgery: enabled
+Author: Diaco
+Website: http://orchardproject.net
+Version: 1.0
+OrchardVersion: 1.10.1
+Description: A Simple ASP.NET MVC website using orchard CMS and Bootstrap.
+Category: Website
+Features:
+    kimiarazi:
+        Description: A Simple ASP.NET MVC website using orchard CMS and Bootstrap.
