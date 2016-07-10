@@ -4,7 +4,7 @@ Author: Diaco
 Website: http://orchardproject.net
 Version: 1.0
 OrchardVersion: 1.10.1
-Description: A Simple ASP.NET MVC website using orchard CMS and Bootstrap.
+Description: A Simple ASP.NET MVC website using Orchard CMS and Bootstrap.
 Category: Website
 Features:
     kimiarazi:
