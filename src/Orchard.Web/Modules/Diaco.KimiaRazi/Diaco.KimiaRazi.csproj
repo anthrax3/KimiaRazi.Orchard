@@ -322,10 +322,6 @@
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Data\KimiaRazi.mdf" />
-    <Content Include="App_Data\KimiaRazi_log.ldf">
-      <DependentUpon>KimiaRazi.mdf</DependentUpon>
-    </Content>
     <Content Include="Content\agency.css" />
     <Content Include="Content\animate.css" />
     <Content Include="Content\bootstrap.css" />
@@ -441,7 +437,6 @@
     <Content Include="Images\Shared\logo.png" />
     <Content Include="Images\Shared\services-bg.jpg" />
     <Content Include="Images\Shared\spacer.png" />
-    <Content Include="KimiaRazi.csproj.user" />
     <Content Include="Module.txt" />
     <Content Include="Scripts\agency.js" />
     <Content Include="Scripts\bootstrap.js" />
@@ -484,7 +479,6 @@
     <Content Include="GenericError.htm" />
     <Content Include="NotFound.htm" />
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
-    <Content Include="HiddenSettings.config" />
     <Content Include="Assets\Styles.less" />
     <Content Include="Assets.json" />
     <None Include="Properties\PublishProfiles\Diaco.pubxml" />
