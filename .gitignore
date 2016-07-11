@@ -156,7 +156,7 @@ $RECYCLE.BIN/
 # Orchard specifics
 # =========================
 
-App_Data/
+App_Data
 glob:*.user
 *.patch
 *.hg
@@ -191,3 +191,8 @@ src/Orchard.Azure/Orchard.Azure.CloudService/Staging/
 src/Rebracer.xml
 
 HiddenSettings.config
+
+!App_Data/
+
+App_Data/*
+!App_Data/localization/
