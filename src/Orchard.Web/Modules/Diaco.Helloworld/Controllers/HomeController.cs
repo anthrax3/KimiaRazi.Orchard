@@ -1,7 +1,7 @@
 using System.Web.Mvc;
 using Orchard.Themes;
 
-namespace HelloWorld.Controllers {
+namespace Diaco.KimiaRazi.Controllers {
     [Themed]
     public class HomeController : Controller {
         public ActionResult Index() {
