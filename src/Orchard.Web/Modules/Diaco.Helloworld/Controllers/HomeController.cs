@@ -5,7 +5,7 @@ namespace HelloWorld.Controllers {
     [Themed]
     public class HomeController : Controller {
         public ActionResult Index() {
-            return View("HelloWorld");
+            return View();
         }
     }
 }
