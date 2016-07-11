@@ -1,6 +1,7 @@
 ﻿using Bakery.Services;
 using KimiaRazi.Models;
 using KimiaRazi.Services;
+using Orchard.Themes;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,13 +10,14 @@ using System.Web.Mvc;
 
 namespace KimiaRazi.Controllers
 {
+    [Themed]
     public class HomeController : Controller
     {
         public ActionResult Index()
         {
             ViewBag.ActiveClass1 = "class = active";
 
-            return View();
+            return View("HelloWorld");
         }
 
         public ActionResult About()
