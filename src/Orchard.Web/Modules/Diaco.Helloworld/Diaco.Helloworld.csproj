@@ -163,6 +163,58 @@
   <ItemGroup>
     <Content Include="Views\Shared\Error.cshtml" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Data\Localization\af-ZA\orchard.module.po" />
+    <Content Include="App_Data\Localization\ar-EG\orchard.module.po" />
+    <Content Include="App_Data\Localization\be-BY\orchard.module.po" />
+    <Content Include="App_Data\Localization\bg-BG\orchard.module.po" />
+    <Content Include="App_Data\Localization\bs-BA\orchard.module.po" />
+    <Content Include="App_Data\Localization\cs-CZ\orchard.module.po" />
+    <Content Include="App_Data\Localization\da-DK\orchard.module.po" />
+    <Content Include="App_Data\Localization\de-DE\orchard.module.po" />
+    <Content Include="App_Data\Localization\el-GR\orchard.module.po" />
+    <Content Include="App_Data\Localization\en-AU\orchard.module.po" />
+    <Content Include="App_Data\Localization\es-AR\orchard.module.po" />
+    <Content Include="App_Data\Localization\es-ES\orchard.module.po" />
+    <Content Include="App_Data\Localization\es-MX\orchard.module.po" />
+    <Content Include="App_Data\Localization\fa-IR\orchard.module.po" />
+    <Content Include="App_Data\Localization\fi-FI\orchard.module.po" />
+    <Content Include="App_Data\Localization\fr-CA\orchard.module.po" />
+    <Content Include="App_Data\Localization\fr-FR\orchard.module.po" />
+    <Content Include="App_Data\Localization\fy-NL\orchard.module.po" />
+    <Content Include="App_Data\Localization\he-IL\orchard.module.po" />
+    <Content Include="App_Data\Localization\hi-IN\orchard.module.po" />
+    <Content Include="App_Data\Localization\hr-HR\orchard.module.po" />
+    <Content Include="App_Data\Localization\hu-HU\orchard.module.po" />
+    <Content Include="App_Data\Localization\id-ID\orchard.module.po" />
+    <Content Include="App_Data\Localization\it-IT\orchard.module.po" />
+    <Content Include="App_Data\Localization\ja-JP\orchard.module.po" />
+    <Content Include="App_Data\Localization\ko-KR\orchard.module.po" />
+    <Content Include="App_Data\Localization\la-LA\orchard.module.po" />
+    <Content Include="App_Data\Localization\lt-LT\orchard.module.po" />
+    <Content Include="App_Data\Localization\mk-MK\orchard.module.po" />
+    <Content Include="App_Data\Localization\nb-NO\orchard.module.po" />
+    <Content Include="App_Data\Localization\nl-BE\orchard.module.po" />
+    <Content Include="App_Data\Localization\nl-NL\orchard.module.po" />
+    <Content Include="App_Data\Localization\pl-PL\orchard.module.po" />
+    <Content Include="App_Data\Localization\pt-BR\orchard.module.po" />
+    <Content Include="App_Data\Localization\pt-PT\orchard.module.po" />
+    <Content Include="App_Data\Localization\ro-RO\orchard.module.po" />
+    <Content Include="App_Data\Localization\ru-RU\orchard.module.po" />
+    <Content Include="App_Data\Localization\sk-SK\orchard.module.po" />
+    <Content Include="App_Data\Localization\sl-SI\orchard.module.po" />
+    <Content Include="App_Data\Localization\sr-CS\orchard.module.po" />
+    <Content Include="App_Data\Localization\sr-SP\orchard.module.po" />
+    <Content Include="App_Data\Localization\sv-SE\orchard.module.po" />
+    <Content Include="App_Data\Localization\ta-IN\orchard.module.po" />
+    <Content Include="App_Data\Localization\th-TH\orchard.module.po" />
+    <Content Include="App_Data\Localization\tlh-AA\orchard.module.po" />
+    <Content Include="App_Data\Localization\tr-TR\orchard.module.po" />
+    <Content Include="App_Data\Localization\uk-UA\orchard.module.po" />
+    <Content Include="App_Data\Localization\vi-VN\orchard.module.po" />
+    <Content Include="App_Data\Localization\zh-CN\orchard.module.po" />
+    <Content Include="App_Data\Localization\zh-TW\orchard.module.po" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
