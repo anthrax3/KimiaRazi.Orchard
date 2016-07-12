@@ -280,7 +280,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Orchard.Azure.Tests", "Orch
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Diaco.KimiaRazi", "Orchard.Web\Modules\Diaco.KimiaRazi\Diaco.KimiaRazi.csproj", "{FEB21A00-F07D-48C3-B5BE-9E8B33BB861A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Diaco.HelloWorld", "Orchard.Web\Modules\Diaco.HelloWorld\Diaco.HelloWorld.csproj", "{70514308-3B17-41D3-90DC-94E57BC68C95}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Diaco.Helloworld", "Orchard.Web\Modules\Diaco.Helloworld\Diaco.Helloworld.csproj", "{5B1F034C-96AA-4922-8E2C-5E0A7AEAD994}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -1125,13 +1125,16 @@ Global
 		{FEB21A00-F07D-48C3-B5BE-9E8B33BB861A}.FxCop|Any CPU.ActiveCfg = Release|Any CPU
 		{FEB21A00-F07D-48C3-B5BE-9E8B33BB861A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FEB21A00-F07D-48C3-B5BE-9E8B33BB861A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{70514308-3B17-41D3-90DC-94E57BC68C95}.CodeCoverage|Any CPU.ActiveCfg = Release|Any CPU
-		{70514308-3B17-41D3-90DC-94E57BC68C95}.Coverage|Any CPU.ActiveCfg = Release|Any CPU
-		{70514308-3B17-41D3-90DC-94E57BC68C95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{70514308-3B17-41D3-90DC-94E57BC68C95}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{70514308-3B17-41D3-90DC-94E57BC68C95}.FxCop|Any CPU.ActiveCfg = Release|Any CPU
-		{70514308-3B17-41D3-90DC-94E57BC68C95}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{70514308-3B17-41D3-90DC-94E57BC68C95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B1F034C-96AA-4922-8E2C-5E0A7AEAD994}.CodeCoverage|Any CPU.ActiveCfg = Release|Any CPU
+		{5B1F034C-96AA-4922-8E2C-5E0A7AEAD994}.CodeCoverage|Any CPU.Build.0 = Release|Any CPU
+		{5B1F034C-96AA-4922-8E2C-5E0A7AEAD994}.Coverage|Any CPU.ActiveCfg = Release|Any CPU
+		{5B1F034C-96AA-4922-8E2C-5E0A7AEAD994}.Coverage|Any CPU.Build.0 = Release|Any CPU
+		{5B1F034C-96AA-4922-8E2C-5E0A7AEAD994}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B1F034C-96AA-4922-8E2C-5E0A7AEAD994}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B1F034C-96AA-4922-8E2C-5E0A7AEAD994}.FxCop|Any CPU.ActiveCfg = Release|Any CPU
+		{5B1F034C-96AA-4922-8E2C-5E0A7AEAD994}.FxCop|Any CPU.Build.0 = Release|Any CPU
+		{5B1F034C-96AA-4922-8E2C-5E0A7AEAD994}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B1F034C-96AA-4922-8E2C-5E0A7AEAD994}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1221,7 +1224,7 @@ Global
 		{D4E8F7C8-2DB2-4C50-A422-DA1DF1E3CC73} = {E9C9F120-07BA-4DFB-B9C3-3AFB9D44C9D5}
 		{1CC62F45-E6FF-43D5-84BF-509A1085D994} = {74E681ED-FECC-4034-B9BD-01B0BB1BDECA}
 		{FEB21A00-F07D-48C3-B5BE-9E8B33BB861A} = {E9C9F120-07BA-4DFB-B9C3-3AFB9D44C9D5}
-		{70514308-3B17-41D3-90DC-94E57BC68C95} = {E9C9F120-07BA-4DFB-B9C3-3AFB9D44C9D5}
+		{5B1F034C-96AA-4922-8E2C-5E0A7AEAD994} = {E9C9F120-07BA-4DFB-B9C3-3AFB9D44C9D5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		EnterpriseLibraryConfigurationToolBinariesPath = packages\TransientFaultHandling.Core.5.1.1209.1\lib\NET4
