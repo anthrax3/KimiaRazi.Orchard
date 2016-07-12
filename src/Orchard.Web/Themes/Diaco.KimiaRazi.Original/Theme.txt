@@ -1,0 +1,8 @@
+Name: Diaco.KimiaRazi.Original
+Author: Diaco
+Website: github.com
+Description: The original theme of the website
+Version: 1.0
+BaseTheme: TheThemeMachine
+# todo: provide tags
+# Tags: Classic, Serif

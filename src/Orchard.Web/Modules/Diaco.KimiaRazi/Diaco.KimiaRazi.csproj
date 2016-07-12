@@ -192,6 +192,32 @@
     <Compile Include="Models\Product.cs" />
     <Compile Include="Models\ProductViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resources\About.Designer.cs" />
+    <Compile Include="Resources\About.en.Designer.cs" />
+    <Compile Include="Resources\Contact.Designer.cs" />
+    <Compile Include="Resources\Contact.en.Designer.cs" />
+    <Compile Include="Resources\DigitalInk.Designer.cs" />
+    <Compile Include="Resources\DigitalInk.en.Designer.cs" />
+    <Compile Include="Resources\Frit.Designer.cs" />
+    <Compile Include="Resources\Frit.en.Designer.cs" />
+    <Compile Include="Resources\Glaze.Designer.cs" />
+    <Compile Include="Resources\Glaze.en.Designer.cs" />
+    <Compile Include="Resources\Home.Designer.cs" />
+    <Compile Include="Resources\Home.en.Designer.cs" />
+    <Compile Include="Resources\Nav.Designer.cs" />
+    <Compile Include="Resources\Nav.en.Designer.cs" />
+    <Compile Include="Resources\Powder.Designer.cs" />
+    <Compile Include="Resources\Powder.en.Designer.cs" />
+    <Compile Include="Resources\SendMessageFailed.Designer.cs" />
+    <Compile Include="Resources\SendMessageFailed.en.Designer.cs" />
+    <Compile Include="Resources\Services.Designer.cs" />
+    <Compile Include="Resources\Services.en.Designer.cs" />
+    <Compile Include="Resources\SpecialGlazes.Designer.cs" />
+    <Compile Include="Resources\SpecialGlazes.en.Designer.cs" />
+    <Compile Include="Resources\Success.Designer.cs" />
+    <Compile Include="Resources\Success.en.Designer.cs" />
+    <Compile Include="Resources\ThirdFiring.Designer.cs" />
+    <Compile Include="Resources\ThirdFiring.en.Designer.cs" />
     <Compile Include="Services\IMailService.cs" />
     <Compile Include="Services\IMessageService.cs" />
     <Compile Include="Services\IProductService.cs" />
@@ -442,6 +468,34 @@
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="packages.config" />
     <None Include="Project_Readme.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\About.en.resx" />
+    <EmbeddedResource Include="Resources\About.resx" />
+    <EmbeddedResource Include="Resources\Contact.en.resx" />
+    <EmbeddedResource Include="Resources\Contact.resx" />
+    <EmbeddedResource Include="Resources\DigitalInk.en.resx" />
+    <EmbeddedResource Include="Resources\DigitalInk.resx" />
+    <EmbeddedResource Include="Resources\Frit.en.resx" />
+    <EmbeddedResource Include="Resources\Frit.resx" />
+    <EmbeddedResource Include="Resources\Glaze.en.resx" />
+    <EmbeddedResource Include="Resources\Glaze.resx" />
+    <EmbeddedResource Include="Resources\Home.en.resx" />
+    <EmbeddedResource Include="Resources\Home.resx" />
+    <EmbeddedResource Include="Resources\Nav.en.resx" />
+    <EmbeddedResource Include="Resources\Nav.resx" />
+    <EmbeddedResource Include="Resources\Powder.en.resx" />
+    <EmbeddedResource Include="Resources\Powder.resx" />
+    <EmbeddedResource Include="Resources\SendMessageFailed.en.resx" />
+    <EmbeddedResource Include="Resources\SendMessageFailed.resx" />
+    <EmbeddedResource Include="Resources\Services.en.resx" />
+    <EmbeddedResource Include="Resources\Services.resx" />
+    <EmbeddedResource Include="Resources\SpecialGlazes.en.resx" />
+    <EmbeddedResource Include="Resources\SpecialGlazes.resx" />
+    <EmbeddedResource Include="Resources\Success.en.resx" />
+    <EmbeddedResource Include="Resources\Success.resx" />
+    <EmbeddedResource Include="Resources\ThirdFiring.en.resx" />
+    <EmbeddedResource Include="Resources\ThirdFiring.resx" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
