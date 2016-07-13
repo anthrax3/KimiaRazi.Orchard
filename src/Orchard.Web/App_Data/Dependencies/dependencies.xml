@@ -824,11 +824,6 @@
         <VirtualPath>~/Modules/Orchard.Tokens/bin/Orchard.Tokens.dll</VirtualPath>
       </Reference>
       <Reference>
-        <Name>YamlDotNet</Name>
-        <LoaderName>PrecompiledExtensionLoader</LoaderName>
-        <VirtualPath>~/Modules/Orchard.Layouts/bin/YamlDotNet.dll</VirtualPath>
-      </Reference>
-      <Reference>
         <Name>YamlDotNet.Dynamic</Name>
         <LoaderName>PrecompiledExtensionLoader</LoaderName>
         <VirtualPath>~/Modules/Orchard.Blogs/bin/YamlDotNet.Dynamic.dll</VirtualPath>

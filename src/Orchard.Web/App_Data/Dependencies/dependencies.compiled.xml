@@ -4,25 +4,25 @@
     <ExtensionId>Diaco.HelloWorld</ExtensionId>
     <LoaderName>DynamicExtensionLoader</LoaderName>
     <VirtualPath>~/Modules/Diaco.HelloWorld/Diaco.HelloWorld.csproj</VirtualPath>
-    <Hash>6c54015712d5f643</Hash>
+    <Hash>6c54030fc4dda503</Hash>
   </Dependency>
   <Dependency>
     <ExtensionId>Diaco.KimiaRazi</ExtensionId>
     <LoaderName>DynamicExtensionLoader</LoaderName>
     <VirtualPath>~/Modules/Diaco.KimiaRazi/Diaco.KimiaRazi.csproj</VirtualPath>
-    <Hash>5962e43a1f4325f2</Hash>
+    <Hash>59638e05bb40b838</Hash>
   </Dependency>
   <Dependency>
     <ExtensionId>Diaco.KimiaRazi.Original</ExtensionId>
     <LoaderName>PrecompiledExtensionLoader</LoaderName>
     <VirtualPath>~/Themes/Diaco.KimiaRazi.Original/bin/Diaco.KimiaRazi.Original.dll</VirtualPath>
-    <Hash>491f3a7987763a21</Hash>
+    <Hash>491f3b44a7724c74</Hash>
   </Dependency>
   <Dependency>
     <ExtensionId>HelloWorld</ExtensionId>
     <LoaderName>DynamicExtensionLoader</LoaderName>
     <VirtualPath>~/Modules/HelloWorld/HelloWorld.csproj</VirtualPath>
-    <Hash>da9cde6841e36e04</Hash>
+    <Hash>da9cded5cc309636</Hash>
   </Dependency>
   <Dependency>
     <ExtensionId>Lucene</ExtensionId>
@@ -202,7 +202,7 @@
     <ExtensionId>Orchard.Layouts</ExtensionId>
     <LoaderName>PrecompiledExtensionLoader</LoaderName>
     <VirtualPath>~/Modules/Orchard.Layouts/bin/Orchard.Layouts.dll</VirtualPath>
-    <Hash>de9f69daafa4b5b2</Hash>
+    <Hash>9555f65a28ccf2df</Hash>
   </Dependency>
   <Dependency>
     <ExtensionId>Orchard.Lists</ExtensionId>

@@ -20,29 +20,12 @@ namespace Diaco.KimiaRazi {
                              new RouteDescriptor {
                                                      Priority = 81,
                                                      Route = new Route(
-                                                         "{controller}/{action}",
-                                                         new RouteValueDictionary {
-                                                                                      {"area", "Diaco.Helloworld"},
-                                                                                      {"controller", "Home"},
-                                                                                      {"action", "Index"}
-                                                                                  },
-                                                         new RouteValueDictionary {
-                                                                                      { "controller", @"(Home)" }
-                                                                                  },
-                                                         new RouteValueDictionary {
-                                                                                      {"area", "Diaco.Helloworld"}
-                                                                                  },
-                                                         new MvcRouteHandler())
-                                                 },
-                             new RouteDescriptor {
-                                                     Priority = 81,
-                                                     Route = new Route(
                                                          "{culture}/{controller}/{action}",
                                                          new RouteValueDictionary {
                                                                                       {"area", "Diaco.Helloworld"},
                                                                                       {"controller", "Home"},
                                                                                       {"action", "Index"},
-                                                                                      {"culture", "en-US"}
+                                                                                      {"culture", "fa-IR"}
                                                                                   },
                                                          new RouteValueDictionary {
                                                                                       { "culture", @"(\w{2})|(\w{2}-\w{2})" },
@@ -52,7 +35,7 @@ namespace Diaco.KimiaRazi {
                                                                                       {"area", "Diaco.Helloworld"}
                                                                                   },
                                                          new MvcRouteHandler())
-                                                 },
+                                                 }
                          };
         }
     }
