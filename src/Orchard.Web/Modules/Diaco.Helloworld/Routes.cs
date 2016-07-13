@@ -25,7 +25,7 @@ namespace Diaco.KimiaRazi {
                                                                                       {"area", "Diaco.Helloworld"},
                                                                                       {"controller", "Home"},
                                                                                       {"action", "Index"},
-                                                                                      {"culture", "fa-IR"}
+                                                                                      {"culture", "en-US"}
                                                                                   },
                                                          new RouteValueDictionary {
                                                                                       { "culture", @"(\w{2})|(\w{2}-\w{2})" },
