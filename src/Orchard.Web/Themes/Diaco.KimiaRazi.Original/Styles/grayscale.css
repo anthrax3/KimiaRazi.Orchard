@@ -139,7 +139,7 @@ nav.navbar-fixed-top .nav li.active a:hover {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    background: url(../Images/home/intro-bg.jpg) no-repeat bottom center scroll;
+    background: url(../../../Modules/Diaco.Helloworld/Images/home/intro-bg.jpg) no-repeat bottom center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -397,7 +397,7 @@ body {
 
 /* parallax */
 		#intro { 
-			background: url(../Images/intro.png) 50% 0 fixed; 
+			background: url(../../../Modules/Diaco.Helloworld/Images/intro.png) 50% 0 fixed; 
 			height: auto;  
 			margin: 0 auto; 
 		    width: 100%; 
@@ -406,7 +406,7 @@ body {
 		    padding: 100px 0;
 		}
 		#home { 
-			background: url(../Images/home/home.jpg) 50% 0 fixed; 
+			background: url(../../../Modules/Diaco.Helloworld/Images/home/home.jpg) 50% 0 fixed; 
 			height: auto;  
 			margin: 0 auto; 
 		    width: 100%; 
@@ -415,7 +415,7 @@ body {
 		    padding: 50px 0;
 		}
 		#about { 
-			background: url(../Images/about.png) 50% 0 fixed; 
+			background: url(../../../Modules/Diaco.Helloworld/Images/about.png) 50% 0 fixed; 
 			height: auto;
 			margin: 0 auto; 
 		    width: 100%; 
@@ -441,7 +441,7 @@ body {
 }
 
 #home-about{
-    background-image: url(../Images/home/contemp.jpg);
+    background-image: url(../../../Modules/Diaco.Helloworld/Images/home/contemp.jpg);
     background-repeat: no-repeat;}
 	
 footer{

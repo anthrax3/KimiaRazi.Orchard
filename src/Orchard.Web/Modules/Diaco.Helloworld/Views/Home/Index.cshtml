@@ -240,7 +240,7 @@
             <div class="portfolio-page portfolio-4column">
                 <ul id="portfolio-list" data-animated="fadeIn">
                     <li class="col-md-3 col-sm-6 col-xs-12 post">
-                        <img src="~/Images/home/home-frit.jpg" alt="" />
+                        <img src="~/Modules/Diaco.Helloworld/Images/home/home-frit.jpg" alt="" />
                         <div class="portfolio-item-content">
                             <span class="header">Resources.Nav.Frit</span>
                             <p class="body">Resources.Home.CompanyName</p>
@@ -248,7 +248,7 @@
                         <a class="btn btn-success more" href='@Url.Action("Frits", "Home")'>Resources.Home.ReadMore &raquo;</a>
                     </li>
                     <li class="col-md-3 col-sm-6 col-xs-12 post">
-                        <img src="~/Images/home/home-glaze.jpg" alt="" />
+                        <img src="~/Modules/Diaco.Helloworld/Images/home/home-glaze.jpg" alt="" />
                         <div class="portfolio-item-content">
                             <span class="header">Resources.Nav.Glaze</span>
                             <p class="body">Resources.Home.CompanyName</p>
@@ -256,7 +256,7 @@
                         <a class="btn btn-success more" href='@Url.Action("Glazes", "Home")'>Resources.Home.ReadMore &raquo;</a>
                     </li>
                     <li class="col-md-3 col-sm-6 col-xs-12 post">
-                        <img src="~/Images/home/home-third.jpg" alt="" />
+                        <img src="~/Modules/Diaco.Helloworld/Images/home/home-third.jpg" alt="" />
                         <div class="portfolio-item-content">
                             <span class="header">Resources.Nav.Thirdfiring</span>
                             <p class="body">Resources.Home.CompanyName</p>
@@ -264,7 +264,7 @@
                         <a class="btn btn-success more" href='@Url.Action("Third_Firing", "Home")'>Resources.Home.ReadMore &raquo;</a>
                     </li>
                     <li class="col-md-3 col-sm-6 col-xs-12 post">
-                        <img src="~/Images/home/home-ink.jpg" alt="" />
+                        <img src="~/Modules/Diaco.Helloworld/Images/home/home-ink.jpg" alt="" />
                         <div class="portfolio-item-content">
                             <span class="header">Resources.Nav.Digitalprinting</span>
                             <p class="body">Resources.Home.CompanyName</p>
@@ -348,7 +348,15 @@
     </section>
 
     <!-- Footer -->
-    @RenderPage("../Shared/_FooterPartial.cshtml", null)
+        @RenderPage("../Shared/_FooterPartial.cshtml", null)
+
+        <!-- jQuery -->
+            <script src="~/Modules/Diaco.Helloworld/Scripts/jquery-1.12.4.min.js"></script>
+    <script src="~/Modules/Diaco.Helloworld/Scripts/bootstrap.js"></script>
+    <script src="~/Modules/Diaco.Helloworld/Scripts/respond.js"></script>
+    <script src="~/Modules/Diaco.Helloworld/Scripts/jquery.easing.min.js"></script>
+    <script src="~/Modules/Diaco.Helloworld/Scripts/jquery.viewportchecker.min.js"></script>
+
 
 
     <!-- animated scroll loading effect -->
@@ -365,6 +373,7 @@
     @@Scripts.Render("~/Scripts/init.js") -->
     <!-- Ticker effect -->
 
+        <script src="~/Modules/Diaco.Helloworld/Scripts/ticker00.js"></script>
     <script type="text/javascript">
         $(document).ready(function () {
             $('#fade').list_ticker({
@@ -373,7 +382,8 @@
             });
         })
     </script>
-
+    <!-- Custom Theme JavaScript -->
+        <script src="~/Modules/Diaco.Helloworld/Scripts/grayscale.js"></script>
     <script>
         $(window).load(function () {
             document.getElementById("loading").style.display = "none";

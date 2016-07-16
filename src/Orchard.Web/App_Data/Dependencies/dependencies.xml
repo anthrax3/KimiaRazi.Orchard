@@ -25,8 +25,8 @@
     <References />
   </Dependency>
   <Dependency>
-    <ModuleName>Diaco.Helloworld</ModuleName>
-    <VirtualPath>~/Modules/Diaco.Helloworld/Diaco.Helloworld.csproj</VirtualPath>
+    <ModuleName>Diaco.HelloWorld</ModuleName>
+    <VirtualPath>~/Modules/Diaco.HelloWorld/Diaco.HelloWorld.csproj</VirtualPath>
     <LoaderName>DynamicExtensionLoader</LoaderName>
     <References />
   </Dependency>
@@ -611,16 +611,6 @@
         <Name>System.Spatial</Name>
         <LoaderName>PrecompiledExtensionLoader</LoaderName>
         <VirtualPath>~/Modules/Orchard.Azure/bin/System.Spatial.dll</VirtualPath>
-      </Reference>
-      <Reference>
-        <Name>WindowsAzureEventSource</Name>
-        <LoaderName>PrecompiledExtensionLoader</LoaderName>
-        <VirtualPath>~/Modules/Orchard.Azure/bin/WindowsAzureEventSource.dll</VirtualPath>
-      </Reference>
-      <Reference>
-        <Name>WindowsAzureTelemetryEvents</Name>
-        <LoaderName>PrecompiledExtensionLoader</LoaderName>
-        <VirtualPath>~/Modules/Orchard.Azure/bin/WindowsAzureTelemetryEvents.dll</VirtualPath>
       </Reference>
     </References>
   </Dependency>
@@ -1257,16 +1247,6 @@
     <VirtualPath>~/Modules/Orchard.DynamicForms/bin/Orchard.DynamicForms.dll</VirtualPath>
     <LoaderName>PrecompiledExtensionLoader</LoaderName>
     <References>
-      <Reference>
-        <Name>Markdown</Name>
-        <LoaderName>PrecompiledExtensionLoader</LoaderName>
-        <VirtualPath>~/Modules/Markdown/bin/Markdown.dll</VirtualPath>
-      </Reference>
-      <Reference>
-        <Name>MarkdownSharp</Name>
-        <LoaderName>PrecompiledExtensionLoader</LoaderName>
-        <VirtualPath>~/Modules/Markdown/bin/MarkdownSharp.dll</VirtualPath>
-      </Reference>
       <Reference>
         <Name>Mono.CSharp</Name>
         <LoaderName>PrecompiledExtensionLoader</LoaderName>
