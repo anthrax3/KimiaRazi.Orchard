@@ -10,7 +10,10 @@
         </div>
     </div> -->
     <!-- End Loading div -->
-
+    
+    @{
+        Style.Require("kimiarazi-rtl").AtHead();
+    }
     <!-- Navigation -->
     @RenderPage("../Shared/_NavPartial.cshtml", null)
 
@@ -177,10 +180,10 @@
     </section>
 
     <!-- Footer -->
-        @RenderPage("../Shared/_FooterPartial.cshtml", null)
+    @RenderPage("../Shared/_FooterPartial.cshtml", null)
 
-        <!-- jQuery -->
-            <script src="~/Modules/Diaco.Helloworld/Scripts/jquery-1.12.4.min.js"></script>
+    <!-- jQuery -->
+    <script src="~/Modules/Diaco.Helloworld/Scripts/jquery-1.12.4.min.js"></script>
     <script src="~/Modules/Diaco.Helloworld/Scripts/bootstrap.js"></script>
     <script src="~/Modules/Diaco.Helloworld/Scripts/respond.js"></script>
     <script src="~/Modules/Diaco.Helloworld/Scripts/jquery.easing.min.js"></script>

@@ -16,8 +16,8 @@
     Style.Include("stylish-portfolio.css");
     Style.Include("kimiarazi.css");
     Style.Include("animate.css");
-    Style.Include("kimiarazi-rtl.css");
     Style.Include("~/font-awesome/css/font-awesome.min.css");
+    // Script.Require("jQuery"); // Renders jquery at the buttom of the pages.
 
     /* Some useful shortcuts or settings
     ***************************************************************/
@@ -51,7 +51,7 @@
     /* Inserting some ad hoc shapes
     ***************************************************************/
 
-    WorkContext.Layout.Header.Add(New.Branding(), "5"); // Site name and link to the home page
+    // WorkContext.Layout.Header.Add(New.Branding(), "5"); // Site name and link to the home page
     WorkContext.Layout.Footer.Add(New.BadgeOfHonor(), "5"); // Powered by Orchard
     WorkContext.Layout.Footer.Add(New.User(), "10"); // Login and dashboard links
 
@@ -61,7 +61,6 @@
     Model.Id = "layout-wrapper";
     var tag = Tag(Model, "div"); // using Tag so the layout div gets the classes, id and other attributes added to the Model
 }
-@tag.StartElement
 @if (Model.Header != null) {
 <header id="layout-header" class="group">
     <div id="header">
@@ -84,14 +83,11 @@
     @Zone(Model.BeforeMain)
 </div>
 }
-<div id="layout-main-container">
-<div id="layout-main" class="group">
     @if (Model.AsideFirst != null) {
     <aside id="aside-first" class="aside-first group">
         @Zone(Model.AsideFirst)
     </aside>
     }
-    <div id="layout-content" class="group">
         @if (Model.Messages != null) {
         <div id="messages">
             @Zone(Model.Messages)
@@ -104,23 +100,18 @@
         }
         @* the model content for the page is in the Content zone @ the default position (nothing, zero, zilch) *@
         @if (Model.Content != null) {
-        <div id="content" class="group">
             @Zone(Model.Content)
-        </div>
         }
         @if (Model.AfterContent != null) {
         <div id="after-content">
             @Zone(Model.AfterContent)
         </div>
         }
-    </div>
     @if (Model.AsideSecond != null) {
     <aside id="aside-second" class="aside-second">
         @Zone(Model.AsideSecond)
     </aside>
     }
-</div>
-</div>
 @if (Model.AfterMain != null) {
 <div id="layout-after-main" class="group">
     @Zone(Model.AfterMain)
@@ -178,4 +169,3 @@
         }
     </footer>
 </div>
-@tag.EndElement
