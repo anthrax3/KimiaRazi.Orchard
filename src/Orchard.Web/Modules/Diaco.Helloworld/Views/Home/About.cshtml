@@ -1,8 +1,177 @@
-﻿@section head{
-    <title>@Resources.About.PageTitle</title>
-}
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-@section Scripts{
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!-- <script src="~/Scripts/jquery.parallax.js"></script> -->
+
+    <title>@T("Resources.About.PageTitle")</title>
+</head>
+<body id="page-top" class="index">
+
+    <!-- Navigation -->
+    @RenderPage("../Shared/_NavPartial.cshtml", null)
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="intro-text">
+            </div>
+        </div>
+    </header>
+
+    <section id="History" class="bg-light-gray">
+        <div class="container">
+            <div class="row post">
+                <div class="col-xs-12">
+                    <h2 class="section-heading"><i class="fa fa-calendar"></i> @T("Resources.About.HistoryHead")</h2>
+                    <img class="article-img-1 pull-left" src="~/Modules/Diaco.Helloworld/Images/article/kimiarazi-1.jpg" />
+                    <p class="text-justify col-lg-offset-1">
+                        @T("Resources.About.HistoryText")
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="history-list">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 timeline-div">
+                    <ul class="timeline">
+                        <li class="col-md-6 post">
+                            <div class="timeline-img pull-right">
+                                <img class="img-circle img-responsive" src="~/Modules/Diaco.Helloworld/Images/About/1360.jpg" alt="">
+                            </div>
+                            <div class="col-lg-8 col-md-8 col-sm-10 col-xs-10 pull-right">
+                                <div class="timeline-heading">
+                                    <h4>@T("Resources.About.H1360Head")</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">@T("Resources.About.H1360text")</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="col-md-6 post">
+                            <div class="timeline-img pull-right">
+                                <img class="img-circle img-responsive" src="~/Modules/Diaco.Helloworld/Images/About/1378.jpg" alt="">
+                            </div>
+                            <div class="col-lg-8 col-md-8 col-sm-10 col-xs-10 pull-right">
+                                <div class="timeline-heading">
+                                    <h4>@T("Resources.About.H1378Head")</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">@T("Resources.About.H1378Text")</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="col-md-6 post">
+                            <div class="timeline-img pull-right">
+                                <img class="img-circle img-responsive" src="~/Modules/Diaco.Helloworld/Images/About/1381.jpg" alt="">
+                            </div>
+                            <div class="col-lg-8 col-md-8 col-sm-10 col-xs-10 pull-right">
+                                <div class="timeline-heading">
+                                    <h4>@T("Resources.About.H1381Head")</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">@T("Resources.About.H1381Text")</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="col-md-6 post">
+                            <div class="timeline-img pull-right">
+                                <img class="img-circle img-responsive" src="~/Modules/Diaco.Helloworld/Images/About/1382.jpg" alt="">
+                            </div>
+                            <div class="col-lg-8 col-md-8 col-sm-10 col-xs-10 pull-right">
+                                <div class="timeline-heading">
+                                    <h4>@T("Resources.About.H1382Head")</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">@T("Resources.About.H1382Text")</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="col-md-6 post">
+                            <div class="timeline-img pull-right">
+                                <img class="img-circle img-responsive" src="~/Modules/Diaco.Helloworld/Images/About/1380.jpg" alt="">
+                            </div>
+                            <div class="col-lg-8 col-md-8 col-sm-10 col-xs-10 pull-right">
+                                <div class="timeline-heading">
+                                    <h4>@T("Resources.About.H1383Head")</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">@T("Resources.About.H1383Text")</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="col-md-6 post">
+                            <div class="timeline-img pull-right">
+                                <img class="img-circle img-responsive" src="~/Modules/Diaco.Helloworld/Images/About/1384.jpg" alt="">
+                            </div>
+                            <div class="col-lg-8 col-md-8 col-sm-10 col-xs-10 pull-right">
+                                <div class="timeline-heading">
+                                    <h4>@T("Resources.About.H1384Head")</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">@T("Resources.About.H1384Text")</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="col-md-6 post">
+                            <div class="timeline-img pull-right">
+                                <img class="img-circle img-responsive" src="~/Modules/Diaco.Helloworld/Images/About/1392.jpg" alt="">
+                            </div>
+                            <div class="col-lg-8 col-md-8 col-sm-10 col-xs-10 pull-right">
+                                <div class="timeline-heading">
+                                    <h4>@T("Resources.About.H1392Head")</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">@T("Resources.About.H1392Text")</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="col-md-6 post">
+                            <div class="timeline-img pull-right">
+                                <img class="img-circle img-responsive" src="~/Modules/Diaco.Helloworld/Images/About/1394.jpg" alt="">
+                            </div>
+                            <div class="col-lg-8 col-md-8 col-sm-10 col-xs-10 pull-right">
+                                <div class="timeline-heading">
+                                    <h4>@T("Resources.About.H1394Head")</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">@T("Resources.About.H1394Text")</p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    @RenderPage("../Shared/_FooterPartial.cshtml", null)
+
+    <!-- All Shared Scripts -->
+    <!-- jQuery -->
+    <script src="~/Modules/Diaco.Helloworld/Scripts/jquery-1.12.4.min.js"></script>
+    <script src="~/Modules/Diaco.Helloworld/Scripts/bootstrap.js"></script>
+    <script src="~/Modules/Diaco.Helloworld/Scripts/respond.js"></script>
+    <script src="~/Modules/Diaco.Helloworld/Scripts/jquery.easing.min.js"></script>
+    <script src="~/Modules/Diaco.Helloworld/Scripts/jquery.viewportchecker.min.js"></script>
+    <script src="~/Modules/Diaco.Helloworld/Scripts/agency.js"></script>
+    <script src="~/Modules/Diaco.Helloworld/Scripts/classie.js"></script>
+    <script src="~/Modules/Diaco.Helloworld/Scripts/cbpAnimatedHeader.js"></script>
+
     <!-- animated scroll loading effect -->
     <script type="text/javascript">
         jQuery(document).ready(function () {
@@ -12,132 +181,5 @@
             });
         });
     </script>
-}
-
-<section id="History" class="bg-light-gray">
-    <div class="container">
-        <div class="row post">
-            <div class="col-xs-12">
-                <h2 class="section-heading"><i class="fa fa-calendar"></i> @Resources.About.HistoryHead</h2>
-                <img class="article-img-1 pull-left" src="~/Images/article/kimiarazi-1.jpg" />
-                <p class="text-justify col-lg-offset-1">
-                    @Resources.About.HistoryText
-                </p>
-            </div>
-        </div>
-    </div>
-</section>
-<section id="history-list">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12 timeline-div">
-                <ul class="timeline">
-                    <li class="col-md-6 post">
-                        <div class="timeline-img pull-right">
-                            <img class="img-circle img-responsive" src="~/Images/About/1360.jpg" alt="">
-                        </div>
-                        <div class="col-lg-8 col-md-8 col-sm-10 col-xs-10 pull-right">
-                            <div class="timeline-heading">
-                                <h4>@Resources.About.H1360Head</h4>
-                            </div>
-                            <div class="timeline-body">
-                                <p class="text-muted">@Resources.About.H1360text</p>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="col-md-6 post">
-                        <div class="timeline-img pull-right">
-                            <img class="img-circle img-responsive" src="~/Images/About/1378.jpg" alt="">
-                        </div>
-                        <div class="col-lg-8 col-md-8 col-sm-10 col-xs-10 pull-right">
-                            <div class="timeline-heading">
-                                <h4>@Resources.About.H1378Head</h4>
-                            </div>
-                            <div class="timeline-body">
-                                <p class="text-muted">@Resources.About.H1378Text</p>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="col-md-6 post">
-                        <div class="timeline-img pull-right">
-                            <img class="img-circle img-responsive" src="~/Images/About/1381.jpg" alt="">
-                        </div>
-                        <div class="col-lg-8 col-md-8 col-sm-10 col-xs-10 pull-right">
-                            <div class="timeline-heading">
-                                <h4>@Resources.About.H1381Head</h4>
-                            </div>
-                            <div class="timeline-body">
-                                <p class="text-muted">@Resources.About.H1381Text</p>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="col-md-6 post">
-                        <div class="timeline-img pull-right">
-                            <img class="img-circle img-responsive" src="~/Images/About/1382.jpg" alt="">
-                        </div>
-                        <div class="col-lg-8 col-md-8 col-sm-10 col-xs-10 pull-right">
-                            <div class="timeline-heading">
-                                <h4>@Resources.About.H1382Head</h4>
-                            </div>
-                            <div class="timeline-body">
-                                <p class="text-muted">@Resources.About.H1382Text</p>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="col-md-6 post">
-                        <div class="timeline-img pull-right">
-                            <img class="img-circle img-responsive" src="~/Images/About/1380.jpg" alt="">
-                        </div>
-                        <div class="col-lg-8 col-md-8 col-sm-10 col-xs-10 pull-right">
-                            <div class="timeline-heading">
-                                <h4>@Resources.About.H1383Head</h4>
-                            </div>
-                            <div class="timeline-body">
-                                <p class="text-muted">@Resources.About.H1383Text</p>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="col-md-6 post">
-                        <div class="timeline-img pull-right">
-                            <img class="img-circle img-responsive" src="~/Images/About/1384.jpg" alt="">
-                        </div>
-                        <div class="col-lg-8 col-md-8 col-sm-10 col-xs-10 pull-right">
-                            <div class="timeline-heading">
-                                <h4>@Resources.About.H1384Head</h4>
-                            </div>
-                            <div class="timeline-body">
-                                <p class="text-muted">@Resources.About.H1384Text</p>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="col-md-6 post">
-                        <div class="timeline-img pull-right">
-                            <img class="img-circle img-responsive" src="~/Images/About/1392.jpg" alt="">
-                        </div>
-                        <div class="col-lg-8 col-md-8 col-sm-10 col-xs-10 pull-right">
-                            <div class="timeline-heading">
-                                <h4>@Resources.About.H1392Head</h4>
-                            </div>
-                            <div class="timeline-body">
-                                <p class="text-muted">@Resources.About.H1392Text</p>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="col-md-6 post">
-                        <div class="timeline-img pull-right">
-                            <img class="img-circle img-responsive" src="~/Images/About/1394.jpg" alt="">
-                        </div>
-                        <div class="col-lg-8 col-md-8 col-sm-10 col-xs-10 pull-right">
-                            <div class="timeline-heading">
-                                <h4>@Resources.About.H1394Head</h4>
-                            </div>
-                            <div class="timeline-body">
-                                <p class="text-muted">@Resources.About.H1394Text</p>
-                            </div>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</section>
+</body>
+</html>

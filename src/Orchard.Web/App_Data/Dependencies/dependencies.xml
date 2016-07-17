@@ -28,7 +28,13 @@
     <ModuleName>Diaco.HelloWorld</ModuleName>
     <VirtualPath>~/Modules/Diaco.HelloWorld/Diaco.HelloWorld.csproj</VirtualPath>
     <LoaderName>DynamicExtensionLoader</LoaderName>
-    <References />
+    <References>
+      <Reference>
+        <Name>System.Web.Optimization</Name>
+        <LoaderName>DynamicExtensionLoader</LoaderName>
+        <VirtualPath>~/Modules/Diaco.HelloWorld/bin/System.Web.Optimization.dll</VirtualPath>
+      </Reference>
+    </References>
   </Dependency>
   <Dependency>
     <ModuleName>Diaco.KimiaRazi</ModuleName>
@@ -78,7 +84,7 @@
       <Reference>
         <Name>System.Web.Optimization</Name>
         <LoaderName>DynamicExtensionLoader</LoaderName>
-        <VirtualPath>~/Modules/Diaco.KimiaRazi/bin/System.Web.Optimization.dll</VirtualPath>
+        <VirtualPath>~/Modules/Diaco.HelloWorld/bin/System.Web.Optimization.dll</VirtualPath>
       </Reference>
       <Reference>
         <Name>WebGrease</Name>
@@ -121,7 +127,13 @@
     <ModuleName>Diaco.KimiaRazi.Original</ModuleName>
     <VirtualPath>~/Themes/Diaco.KimiaRazi.Original/bin/Diaco.KimiaRazi.Original.dll</VirtualPath>
     <LoaderName>PrecompiledExtensionLoader</LoaderName>
-    <References />
+    <References>
+      <Reference>
+        <Name>System.Web.Optimization</Name>
+        <LoaderName>DynamicExtensionLoader</LoaderName>
+        <VirtualPath>~/Modules/Diaco.HelloWorld/bin/System.Web.Optimization.dll</VirtualPath>
+      </Reference>
+    </References>
   </Dependency>
   <Dependency>
     <ModuleName>Feeds</ModuleName>

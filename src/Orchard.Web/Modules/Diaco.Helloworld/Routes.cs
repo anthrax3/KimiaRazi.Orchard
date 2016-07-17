@@ -22,10 +22,9 @@ namespace Diaco.KimiaRazi {
                                                      Route = new Route(
                                                          "{culture}/{controller}/{action}",
                                                          new RouteValueDictionary {
-                                                                                      {"area", "Diaco.Helloworld"},
+                                                                                      {"culture", "en-US"},
                                                                                       {"controller", "Home"},
-                                                                                      {"action", "Index"},
-                                                                                      {"culture", "fa-IR"}
+                                                                                      {"action", "Index"}
                                                                                   },
                                                          new RouteValueDictionary {
                                                                                       { "culture", @"(\w{2})|(\w{2}-\w{2})" },
