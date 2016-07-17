@@ -209,6 +209,7 @@
     <Content Include="Scripts\cbpAnimatedHeader.min.js" />
     <Content Include="Scripts\classie.js" />
     <Content Include="Scripts\contact_me.js" />
+    <Content Include="Styles\agency.css" />
     <Content Include="Styles\grayscale.css" />
     <Content Include="Scripts\grayscale.js" />
     <Content Include="Scripts\init.js" />
