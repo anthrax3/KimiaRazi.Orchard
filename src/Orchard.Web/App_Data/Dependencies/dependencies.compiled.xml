@@ -4,7 +4,7 @@
     <ExtensionId>Diaco.HelloWorld</ExtensionId>
     <LoaderName>DynamicExtensionLoader</LoaderName>
     <VirtualPath>~/Modules/Diaco.HelloWorld/Diaco.HelloWorld.csproj</VirtualPath>
-    <Hash>fe87f02b21681469</Hash>
+    <Hash>fe87f05a671f74e9</Hash>
   </Dependency>
   <Dependency>
     <ExtensionId>Diaco.KimiaRazi</ExtensionId>
