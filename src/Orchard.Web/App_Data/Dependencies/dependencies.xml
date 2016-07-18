@@ -1,6 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Dependencies>
   <Dependency>
+    <ModuleName>AIM.DesignerTools</ModuleName>
+    <VirtualPath>~/Modules/AIM.DesignerTools/AIM.DesignerTools.csproj</VirtualPath>
+    <LoaderName>DynamicExtensionLoader</LoaderName>
+    <References />
+  </Dependency>
+  <Dependency>
     <ModuleName>Common</ModuleName>
     <VirtualPath>~/Core/Common</VirtualPath>
     <LoaderName>CoreExtensionLoader</LoaderName>
@@ -125,8 +131,8 @@
   </Dependency>
   <Dependency>
     <ModuleName>Diaco.KimiaRazi.Original</ModuleName>
-    <VirtualPath>~/Themes/Diaco.KimiaRazi.Original/bin/Diaco.KimiaRazi.Original.dll</VirtualPath>
-    <LoaderName>PrecompiledExtensionLoader</LoaderName>
+    <VirtualPath>~/Themes/Diaco.KimiaRazi.Original/Diaco.KimiaRazi.Original.csproj</VirtualPath>
+    <LoaderName>DynamicExtensionLoader</LoaderName>
     <References>
       <Reference>
         <Name>System.Web.Optimization</Name>

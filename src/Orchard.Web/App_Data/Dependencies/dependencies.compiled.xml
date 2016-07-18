@@ -1,6 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Dependencies>
   <Dependency>
+    <ExtensionId>AIM.DesignerTools</ExtensionId>
+    <LoaderName>DynamicExtensionLoader</LoaderName>
+    <VirtualPath>~/Modules/AIM.DesignerTools/AIM.DesignerTools.csproj</VirtualPath>
+    <Hash>91de95e7da42b30a</Hash>
+  </Dependency>
+  <Dependency>
     <ExtensionId>Diaco.HelloWorld</ExtensionId>
     <LoaderName>DynamicExtensionLoader</LoaderName>
     <VirtualPath>~/Modules/Diaco.HelloWorld/Diaco.HelloWorld.csproj</VirtualPath>
@@ -14,9 +20,9 @@
   </Dependency>
   <Dependency>
     <ExtensionId>Diaco.KimiaRazi.Original</ExtensionId>
-    <LoaderName>PrecompiledExtensionLoader</LoaderName>
-    <VirtualPath>~/Themes/Diaco.KimiaRazi.Original/bin/Diaco.KimiaRazi.Original.dll</VirtualPath>
-    <Hash>92822ce01f6e3e02</Hash>
+    <LoaderName>DynamicExtensionLoader</LoaderName>
+    <VirtualPath>~/Themes/Diaco.KimiaRazi.Original/Diaco.KimiaRazi.Original.csproj</VirtualPath>
+    <Hash>6ab5ec02b4c1c384</Hash>
   </Dependency>
   <Dependency>
     <ExtensionId>HelloWorld</ExtensionId>
