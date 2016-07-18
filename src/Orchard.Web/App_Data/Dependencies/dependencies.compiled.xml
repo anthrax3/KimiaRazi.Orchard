@@ -22,7 +22,7 @@
     <ExtensionId>Diaco.KimiaRazi.Original</ExtensionId>
     <LoaderName>DynamicExtensionLoader</LoaderName>
     <VirtualPath>~/Themes/Diaco.KimiaRazi.Original/Diaco.KimiaRazi.Original.csproj</VirtualPath>
-    <Hash>6ab5ec02b4c1c384</Hash>
+    <Hash>6ab5ec08c1ee97e9</Hash>
   </Dependency>
   <Dependency>
     <ExtensionId>HelloWorld</ExtensionId>

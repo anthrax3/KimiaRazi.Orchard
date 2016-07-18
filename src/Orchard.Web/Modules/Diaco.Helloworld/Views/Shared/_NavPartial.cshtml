@@ -7,7 +7,7 @@
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                 <i class="fa fa-bars"></i>
             </button>
-            <a class="navbar-brand page-scroll" href='@Url.Action("Index", "Home", new { area = "" })'>
+            <a class="navbar-brand page-scroll" href='@Url.Action("Index", new {area = "", controller = "Home"})'>
                 <img class="logo-icon" src="~/Modules/Diaco.Helloworld/Images/Shared/logo.png" />@T("Resources.Home.CompanyName")
             </a>
         </div>
