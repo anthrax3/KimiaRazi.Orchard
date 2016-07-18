@@ -1,12 +1,13 @@
-﻿Name: KimiaRazi
+﻿Name: KimiaRazi.Original
 AntiForgery: enabled
 Author: Diaco
 Website: https://github.com/s-diaco/KimiaRazi.Orchard
 Version: 1.0
 OrchardVersion: 1.10.1
-Description: A Simple ASP.NET MVC website using Orchard CMS and Bootstrap.
-Category: Website
+Description: The original website.
+Category: Content
 Features:
-    Diaco.KimiaRazi:
-        Name: KimiaRazi website
-        Description: A Simple ASP.NET MVC website using orchard CMS and Bootstrap.
+    Diaco.Feature.KimiaRazi.Original:
+        Name: KimiaRazi - Original Website
+        Description: Original website. better be disabled!
+		Category: Content

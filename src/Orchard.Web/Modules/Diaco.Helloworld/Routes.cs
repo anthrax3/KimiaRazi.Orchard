@@ -20,15 +20,16 @@ namespace Diaco.KimiaRazi {
                              new RouteDescriptor {
                                                      Priority = 81,
                                                      Route = new Route(
-                                                         "{culture}/{controller}/{action}",
+                                                         "{culture}/{controller}/{action}/{id}",
                                                          new RouteValueDictionary {
                                                                                       {"culture", "en-US"},
                                                                                       {"controller", "Home"},
-                                                                                      {"action", "Index"}
+                                                                                      {"action", "Index"},
+                                                                                      {"id", UrlParameter.Optional}
                                                                                   },
                                                          new RouteValueDictionary {
-                                                                                      { "culture", @"(\w{2})|(\w{2}-\w{2})" },
-                                                                                      { "controller", @"(Home)" }
+                                                                                      {"culture", @"(\w{2})|(\w{2}-\w{2})"},
+                                                                                      {"controller", @"(Home)"}
                                                                                   },
                                                          new RouteValueDictionary {
                                                                                       {"area", "Diaco.Helloworld"}

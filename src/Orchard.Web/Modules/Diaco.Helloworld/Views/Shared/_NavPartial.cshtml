@@ -7,7 +7,7 @@
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                 <i class="fa fa-bars"></i>
             </button>
-            <a class="navbar-brand page-scroll" href='@Url.Action("Index", "Home")'>
+            <a class="navbar-brand page-scroll" href='@Url.Action("Index", "Home", new { area = "" })'>
                 <img class="logo-icon" src="~/Modules/Diaco.Helloworld/Images/Shared/logo.png" />@T("Resources.Home.CompanyName")
             </a>
         </div>
@@ -44,15 +44,15 @@
                     @Html.ActionLink(T("Resources.nav.Services"), "Services", "Home")
                 </li>
                 <li @ViewBag.ActiveClass6>
-                    @Html.ActionLink(T("Resources.nav.About"), "About", "Home")
+                    @Html.ActionLink(T("Resources.nav.About"), "About", new { area = "" })
                 </li>
                 <li @ViewBag.ActiveClass7>
-                    @Html.ActionLink(T("Resources.nav.Contact"), "Contact", "Home")
+                    @Html.ActionLink(T("Resources.nav.Contact"), "Contact", new { area = "" })
                 </li>
 
                 <!-- lang selector-->
                     <li class="lang-bar">
-                    <span> <a class="taglib-icon" href="@Url.Action(ViewContext.RouteData.Values["action"].ToString(), new { culture = "fa-IR", id = ViewContext.RouteData.Values.Keys.Contains("id") ? ViewContext.RouteData.Values["id"].ToString() : ""})" id="fair" lang="fa-IR"> <img class="lang-icon" src="~/Modules/Diaco.Helloworld/Images/Shared/spacer.png" alt="فارسی" title="فارسی"> </a> </span>
+                    <span> <a class="taglib-icon" href="@Url.Action(ViewContext.RouteData.Values["action"].ToString(), new { culture = "fa-IR", id = ViewContext.RouteData.Values.Keys.Contains("id") ? ViewContext.RouteData.Values["id"].ToString() : "", area = ""})" id="fair" lang="fa-IR"> <img class="lang-icon" src="~/Modules/Diaco.Helloworld/Images/Shared/spacer.png" alt="فارسی" title="فارسی"> </a> </span>
                     <span> <a class="taglib-icon" href="@Url.Action(ViewContext.RouteData.Values["action"].ToString(), new { culture = "en-US", id = ViewContext.RouteData.Values.Keys.Contains("id") ? ViewContext.RouteData.Values["id"].ToString() : ""})" id="engb" lang="en-GB"> <img class="lang-icon" src="~/Modules/Diaco.Helloworld/Images/Shared/spacer.png" alt="English" title="English"> </a> </span>
                 </li>
             </ul>
