@@ -1,11 +1,13 @@
-﻿@{
-    // Model.Id = string.Concat("zone-", Model.Hint.ToLowerInvariant());
-    var tag = Tag(Model, "section");
-}
-@{
-    // tag.StartElement
-}
+﻿@*
+    @{
+        // Model.Id = string.Concat("zone-", Model.Hint.ToLowerInvariant());
+        var tag = Tag(Model, "section");
+    }
+    @{
+        tag.StartElement
+    }
+    @{
+        tag.EndElement
+    }
+    *@
 @DisplayChildren(Model)
-@{
-    // tag.EndElement
-}

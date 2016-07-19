@@ -7,6 +7,12 @@
     <Hash>91de95e7da42b30a</Hash>
   </Dependency>
   <Dependency>
+    <ExtensionId>Contoso</ExtensionId>
+    <LoaderName>DynamicExtensionLoader</LoaderName>
+    <VirtualPath>~/Themes/Contoso/Contoso.csproj</VirtualPath>
+    <Hash>3967351cc103541f</Hash>
+  </Dependency>
+  <Dependency>
     <ExtensionId>Diaco.HelloWorld</ExtensionId>
     <LoaderName>DynamicExtensionLoader</LoaderName>
     <VirtualPath>~/Modules/Diaco.HelloWorld/Diaco.HelloWorld.csproj</VirtualPath>
@@ -20,9 +26,9 @@
   </Dependency>
   <Dependency>
     <ExtensionId>Diaco.KimiaRazi.Original</ExtensionId>
-    <LoaderName>DynamicExtensionLoader</LoaderName>
-    <VirtualPath>~/Themes/Diaco.KimiaRazi.Original/Diaco.KimiaRazi.Original.csproj</VirtualPath>
-    <Hash>6ab5ec08c1ee97e9</Hash>
+    <LoaderName>PrecompiledExtensionLoader</LoaderName>
+    <VirtualPath>~/Themes/Diaco.KimiaRazi.Original/bin/Diaco.KimiaRazi.Original.dll</VirtualPath>
+    <Hash>92822daa726fa0ff</Hash>
   </Dependency>
   <Dependency>
     <ExtensionId>HelloWorld</ExtensionId>
