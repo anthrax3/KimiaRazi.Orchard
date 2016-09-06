@@ -16,7 +16,7 @@
     <ExtensionId>Diaco.HelloWorld</ExtensionId>
     <LoaderName>DynamicExtensionLoader</LoaderName>
     <VirtualPath>~/Modules/Diaco.HelloWorld/Diaco.HelloWorld.csproj</VirtualPath>
-    <Hash>fe87f24651d334b5</Hash>
+    <Hash>fe8819ad78e5bb24</Hash>
   </Dependency>
   <Dependency>
     <ExtensionId>Diaco.KimiaRazi</ExtensionId>
@@ -26,9 +26,9 @@
   </Dependency>
   <Dependency>
     <ExtensionId>Diaco.KimiaRazi.Original</ExtensionId>
-    <LoaderName>DynamicExtensionLoader</LoaderName>
-    <VirtualPath>~/Themes/Diaco.KimiaRazi.Original/Diaco.KimiaRazi.Original.csproj</VirtualPath>
-    <Hash>6ab5ecc03032db58</Hash>
+    <LoaderName>PrecompiledExtensionLoader</LoaderName>
+    <VirtualPath>~/Themes/Diaco.KimiaRazi.Original/bin/Diaco.KimiaRazi.Original.dll</VirtualPath>
+    <Hash>92823e20d46027a6</Hash>
   </Dependency>
   <Dependency>
     <ExtensionId>HelloWorld</ExtensionId>
