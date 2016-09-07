@@ -28,7 +28,7 @@
     <ExtensionId>Diaco.KimiaRazi.Original</ExtensionId>
     <LoaderName>PrecompiledExtensionLoader</LoaderName>
     <VirtualPath>~/Themes/Diaco.KimiaRazi.Original/bin/Diaco.KimiaRazi.Original.dll</VirtualPath>
-    <Hash>92823e20d46027a6</Hash>
+    <Hash>928255192dc4007e</Hash>
   </Dependency>
   <Dependency>
     <ExtensionId>HelloWorld</ExtensionId>

@@ -251,6 +251,7 @@
     <Content Include="Views\zone-content.cshtml" />
     <Content Include="Views\Layout-url-fa-IR.cshtml" />
     <Content Include="Views\Items\Content-DiacoTestType.cshtml" />
+    <Content Include="Views\content-HomeProduct.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\..\Orchard\Orchard.Framework.csproj">
