@@ -28,7 +28,7 @@
     <ExtensionId>Diaco.KimiaRazi.Original</ExtensionId>
     <LoaderName>PrecompiledExtensionLoader</LoaderName>
     <VirtualPath>~/Themes/Diaco.KimiaRazi.Original/bin/Diaco.KimiaRazi.Original.dll</VirtualPath>
-    <Hash>928255192dc4007e</Hash>
+    <Hash>9282576e3500f71b</Hash>
   </Dependency>
   <Dependency>
     <ExtensionId>HelloWorld</ExtensionId>
@@ -154,7 +154,7 @@
     <ExtensionId>Orchard.DesignerTools</ExtensionId>
     <LoaderName>PrecompiledExtensionLoader</LoaderName>
     <VirtualPath>~/Modules/Orchard.DesignerTools/bin/Orchard.DesignerTools.dll</VirtualPath>
-    <Hash>4c336e30a411e3a5</Hash>
+    <Hash>4c3398c229d1edfe</Hash>
   </Dependency>
   <Dependency>
     <ExtensionId>Orchard.DynamicForms</ExtensionId>
